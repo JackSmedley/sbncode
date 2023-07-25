@@ -248,7 +248,7 @@ libdir	fq_dir		lib
 #   cetmodules), an entry for cetmodules is required.
 #
 # * It is an error for more than one non-(<qual-trigger> == "-default-")
-#   entry to match for a given product.
+   entry to match for a given product.
 #
 ####################################
 product			version		qual	flags		<table_format=2>
@@ -319,9 +319,9 @@ end_product_list
 ####################################
 
 qualifier	larsoft		sbnobj		sbnanaobj	sbndaq_artdaq_core  genie_xsec              sbndata larcv2         systematicstools  nusystematics  geant4reweight  notes
-c7:debug	c7:debug	c7:debug	c7:debug	c7:s117:debug       AR2320i00000:e1000:k250 -nq-    c7:p392:debug  c7:debug	     c7:debug	    c7:prof:s117   -nq-
-c7:prof		c7:prof		c7:prof		c7:prof		c7:s117:prof        AR2320i00000:e1000:k250 -nq-    c7:p392:prof   c7:prof	     c7:prof	    c7:prof:s117   -nq-
-e20:debug	e20:debug	e20:debug	e20:debug	e20:s117:debug      AR2320i00000:e1000:k250 -nq-    e20:p392:debug e20:debug	     e20:debug	    e20:debug:s117   -nq-
+c7:debug	c7:debug	c7:debug	c7:debug	c7:s117:debug       AR2320i00000:e1000:k250 -nq-    c7:p392:debug  c7:debug	     c7:debug	    c7:prof:s117    -nq-
+c7:prof		c7:prof		c7:prof		c7:prof		c7:s117:prof        AR2320i00000:e1000:k250 -nq-    c7:p392:prof   c7:prof	     c7:prof	    c7:prof:s117    -nq-
+e20:debug	e20:debug	e20:debug	e20:debug	e20:s117:debug      AR2320i00000:e1000:k250 -nq-    e20:p392:debug e20:debug	     e20:debug	    e20:debug:s117  -nq-
 e20:prof	e20:prof	e20:prof	e20:prof	e20:s117:prof       AR2320i00000:e1000:k250 -nq-    e20:p392:prof  e20:prof	     e20:prof	    e20:prof:s117   -nq-
 
 end_qualifier_list
